@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body class="register">
+    <form action="results.html" method="GET">
+
+        <fieldset>
+
+            <legend>Log In Information</legend>
+            <div class="form-section">
+
+
+                <div>
+                    <label for="username">Username</label>
+                    <input name="name" id="username">
+
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input name="password" id="password">
+                </div>
+
+            </div>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+
+            <div class="form-section">
+
+
+                <div>
+                    <label>Position:</label>
+                    <select>
+                        <option>Engineer</option>
+                        <option>Architect</option>
+                        <option>Teacher</option>
+                        <option>Salesman</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Gender:</label>
+                    <label>
+                    <input type="radio" name="gender">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Female
+                    </label>
+                </div>
+                <div class="contact">
+                    <label>Contact Preference:</label>
+
+                    <div>
+                
+                        <label>
+                        <input type="checkbox" name="contact">Email
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="contact">Phone
+                        </label>
+
+                    </div>
+                </div>
+                <div>
+                    <label for="file">Picture:</label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <div>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
